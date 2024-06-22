@@ -296,7 +296,7 @@ button.btn-secondary:hover{
 }
 .carousel-item {
   height: 88vh;
-  min-height: 300px;
+  min-height: 20px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1910,6 +1910,10 @@ footer p {
 	color: #ffdc12;
 }
 
+.img-fluid {
+	width: 20px;
+	height: 20px;
+}
 
 
 
