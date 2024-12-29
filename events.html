@@ -1,15 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IEEE RSET Events</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Execom</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fontawesome CSS -->
+    <link href="css/all.css" rel="stylesheet">
+    <!-- Owl Carousel CSS -->
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            padding-top: 20px;
+            text-align: center;
+        }
+        .category {
+            margin-bottom: 40px;
+        }
+        .category h2 {
+            color: #333;
+            margin-bottom: 15px;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        .category .events {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            justify-content: center;
+        }
+        .category .event {
+            width: 100%;
+            max-width: 300px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .category .event img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+        .event h3 {
+            color: #333;
+            margin-top: 10px;
+        }
+        .event-description {
+            margin-top: 10px;
+        }
+        .event-date {
+            color: #555;
+        }
+        .event:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        .event:hover img {
+            transform: scale(1.05);
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Top Bar -->
+   <!DOCTYPE html>
+<html lang="en">
+<head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="">
 	<meta name="author" content="">
-	<title> Events </title>
+	<title>Execom</title>
 	<!-- Bootstrap core CSS -->
 	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<!-- Fontawesome CSS -->
 	<link href="css/all.css" rel="stylesheet">
+	<!-- Owl Carousel CSS -->
+	<link href="css/owl.carousel.min.css" rel="stylesheet">
 	<!-- Custom styles for this template -->
 	<link href="css/style.css" rel="stylesheet">
 </head>
@@ -39,7 +140,7 @@
 				</div>
 			</div>
 		</div>
-    <!-- Navigation -->
+	<!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-light top-nav">
         <div class="container">
             <a class="navbar-brand" href="index.html">
@@ -54,11 +155,10 @@
 						<a class="nav-link" href="index.html">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="execom.html">Execom</a>
+						<a class="nav-link " href="about.html">Execom</a>
 					</li>
-					
 					<li class="nav-item">
-						<a class="nav-link" href="events.html">Events</a>
+						<a class="nav-link active" href="events.html">Events</a>
 					</li>
 				</ul>
             </div>
@@ -69,251 +169,185 @@
 	<div class="full-title">
 		<div class="container">
 			<!-- Page Heading/Breadcrumbs -->
-			<h1 class="mt-4 mb-3"> Events </h1>
+			<h1 class="mt-4 mb-3"> Events</h1>
 			<div class="breadcrumb-main">
 				<ol class="breadcrumb">
 					<li class="breadcrumb-item">
 						<a href="index.html">Home</a>
 					</li>
-					<li class="breadcrumb-item active">Events</li>
+					<li class="breadcrumb-item active"> Events </li>
 				</ol>
 			</div>
 		</div>
 	</div>
-
-    <div class="portfolio-col">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-					<div class="card h-100">
-						<a class="hover-box" href="#">
-							<div class="dot-full">
-								<i class="fas fa-link"></i>
-							</div>
-							<img class="card-img-top" src="images/portfolio-big-01.jpg" alt="" />
-						</a>
-						<div class="card-body">
-							<h4><a href="#">In viverra nisi vel facilisis dignissim.</a></h4>
-							<p>Business Consulting</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-					<div class="card h-100">
-						<a class="hover-box" href="#">
-							<div class="dot-full">
-								<i class="fas fa-link"></i>
-							</div>
-							<img class="card-img-top" src="images/portfolio-big-02.jpg" alt="" />
-						</a>
-						<div class="card-body">
-							<h4><a href="#">In viverra nisi vel facilisis dignissim.</a></h4>
-							<p>Business Consulting</p>				  
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-					<div class="card h-100">
-						<a class="hover-box" href="#">
-							<div class="dot-full">
-								<i class="fas fa-link"></i>
-							</div>
-							<img class="card-img-top" src="images/portfolio-big-03.jpg" alt="" />
-						</a>
-						<div class="card-body">
-							<h4><a href="#">In viverra nisi vel facilisis dignissim.</a></h4>
-							<p>Business Consulting</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-					<div class="card h-100">
-						<a class="hover-box" href="#">
-							<div class="dot-full">
-								<i class="fas fa-link"></i>
-							</div>
-							<img class="card-img-top" src="images/portfolio-big-04.jpg" alt="" />
-						</a>
-						<div class="card-body">
-							<h4><a href="#">In viverra nisi vel facilisis dignissim.</a></h4>
-							<p>Business Consulting</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-					<div class="card h-100">
-						<a class="hover-box" href="#">
-							<div class="dot-full">
-								<i class="fas fa-link"></i>
-							</div>
-							<img class="card-img-top" src="images/portfolio-big-04.jpg" alt="" />
-						</a>
-						<div class="card-body">
-							<h4><a href="#">In viverra nisi vel facilisis dignissim.</a></h4>
-							<p>Business Consulting</p>					  
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-					<div class="card h-100">
-						<a class="hover-box" href="#">
-							<div class="dot-full">
-								<i class="fas fa-link"></i>
-							</div>
-							<img class="card-img-top" src="images/portfolio-big-01.jpg" alt="" />
-						</a>
-						<div class="card-body">
-							<h4><a href="#">In viverra nisi vel facilisis dignissim.</a></h4>
-							<p>Business Consulting</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-					<div class="card h-100">
-						<a class="hover-box" href="#">
-							<div class="dot-full">
-								<i class="fas fa-link"></i>
-							</div>
-							<img class="card-img-top" src="images/portfolio-big-02.jpg" alt="" />
-						</a>
-						<div class="card-body">
-							<h4><a href="#">In viverra nisi vel facilisis dignissim.</a></h4>
-							<p>Business Consulting</p>					  
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-					<div class="card h-100">
-						<a class="hover-box" href="#">
-							<div class="dot-full">
-								<i class="fas fa-link"></i>
-							</div>
-							<img class="card-img-top" src="images/portfolio-big-03.jpg" alt="">
-						</a>
-						<div class="card-body">
-							<h4><a href="#">In viverra nisi vel facilisis dignissim.</a></h4>
-							<p>Business Consulting</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		  
-			<div class="pagination_bar">
-				<!-- Pagination -->
-				<ul class="pagination justify-content-center">
-					<li class="page-item">
-					  <a class="page-link" href="#" aria-label="Previous">
-						<span aria-hidden="true">&laquo;</span>
-						<span class="sr-only">Previous</span>
-					  </a>
-					</li>
-					<li class="page-item">
-					  <a class="page-link" href="#">1</a>
-					</li>
-					<li class="page-item">
-					  <a class="page-link" href="#">2</a>
-					</li>
-					<li class="page-item">
-					  <a class="page-link" href="#">3</a>
-					</li>
-					<li class="page-item">
-					  <a class="page-link" href="#" aria-label="Next">
-						<span aria-hidden="true">&raquo;</span>
-						<span class="sr-only">Next</span>
-					  </a>
-					</li>
-				</ul>
-			</div>
-
-		</div>
-		<!-- /.container -->
-	</div>
-	
-	<!-- Contact Us -->
-	<div class="touch-line">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8">
-				   <p>IEEE Student Branch
-					Rajagiri School of Engineering and Technology<br>
-					Kakkanad, Kochi<br>
-					Kerala - 682039</p>
-				</div>
-				<div class="col-md-4">
-				   <a class="btn btn-lg btn-secondary btn-block" href="#"> Contact Us </a>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-    <!-- /.container -->
-    <!--footer starts from here-->
-    <footer class="footer">
-        <div class="container bottom_border">
-            <div class="row">
-				<div class="col-lg-3 col-md-6 col-sm-6 col">
-					<h5 class="headin5_amrc col_white_amrc pt2">Social Media links</h5>
-					<!--headin5_amrc-->
-					<p class="mb10">Stay tuned to our latest activities through trending platforms!
-
-					</p>
-					<ul class="footer-social">
-						<li><a class="linkedin hb-xs-margin" href="https://www.linkedin.com/company/ieee-student-branch-rajagiri-school-of-engineering-technology"><span class="hb hb-xs spin hb-twitter"><i class="fab fa-linkedin"></i></span></a></li>
-						<li><a class="instagram hb-xs-margin" href="https://www.instagram.com/ieeersetsb/"><span class="hb hb-xs spin hb-instagram"><i class="fab fa-instagram"></i></span></a></li>
-						<li><a class="facebook hb-xs-margin" href="https://www.facebook.com/rsetieeesb"><span class="hb hb-xs spin hb-facebook"><i class="fab fa-facebook"></i></span></a></li>
-						</ul>
-				</div>	
-				<div class="col-lg-3 col-md-6 col-sm-6">
-					<h5 class="headin5_amrc col_white_amrc pt2">Downloads</h5>
-					<!--headin5_amrc-->
-					<ul class="footer_ul_amrc">
-						<li><a href="RSET_SB_Annual_Report_2020-21.pdf"><i class="fas fa-long-arrow-alt-right"></i>RSET SB Report 2020-21</a></li>
-						<li><a href="IMPULSE_(RSET DEE Magazine).pdf"><i class="fas fa-long-arrow-alt-right"></i>Impulse Magazine (DEE & IEEE PES SBC RSET)</a></li>
-						<li><a href="RSET_IEEE_SB_2020-21.pdf"><i class="fas fa-long-arrow-alt-right"></i>Newsletter 2020-21</a></li>
-						<li><a href="RSET_IEEE_SB_2016-17.pdf"><i class="fas fa-long-arrow-alt-right"></i>Newsletter 2016-17</a></li>
-						<li><a href="RSET_IEEE_SB_2015-16.pdf"><i class="fas fa-long-arrow-alt-right"></i>Newsletter 2015-16</a></li>
-						<li><a href="RSET_IEEE_SB_2014-15.pdf"><i class="fas fa-long-arrow-alt-right"></i>Newsletter 2014-15</a></li>
-						<li><a href="RSET_IEEE_SB_2013-14.pdf"><i class="fas fa-long-arrow-alt-right"></i>Newsletter 2013-14</a></li>
-						<li><a href="RSET_PES_SBC_2020.pdf"><i class="fas fa-long-arrow-alt-right"></i>RSET PES SBC Report 2020</a></li>
-						<li><a href="RSET_WiE_Report.pdf"><i class="fas fa-long-arrow-alt-right"></i>RSET WiE Report 2020</a></li>
-						<li><a href="RSET_CS_2020.pdf"><i class="fas fa-long-arrow-alt-right"></i>RSET CS IEEE Report 2020</a></li>
-					</ul>
-					<!--footer_ul_amrc ends here-->
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6 col">
-					
-					<h5 class="headin5_amrc col_white_amrc pt2">Other links</h5>
-					<!--headin5_amrc ends here-->
-					<ul class="footer_ul_amrc">
-						<li><a href="https://www.ieee.org/"><i class="fas fa-long-arrow-alt-right"></i>IEEE.org</a></li>
-						<li><a href="https://www.ieeer10.org/"><i class="fas fa-long-arrow-alt-right"></i>IEEE Region 10</a></li>
-						<li><a href="https://ieeekerala.org/"><i class="fas fa-long-arrow-alt-right"></i>IEEE Kerala Section</a></li>
-						<li><a href="http://kochi.ieeekerala.org/"><i class="fas fa-long-arrow-alt-right"></i>IEEE Kochi Subsection</a></li>
-						<li><a href="IEEE Xplore Digital Library"><i class="fas fa-long-arrow-alt-right"></i>IEEE Xplore Digital Library</a></li>
-						
-					</ul>
-					<!--footer_ul2_amrc ends here-->
-				</div>
-				
-			</div>
-		</div>
-		<div class="map-main">
-			<!-- Embedded Google Map -->
-			<iframe width="100%" height="300px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Rajagiri school of engineering and technology&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
-		</div>
-        <div class="container">
-            <p class="copyright text-center">Created By Nihal Rahoof <a href="https://nihalrahoof.tech/">Nihalrahoof.tech</a>  
-				<a class="linkedin" href="https://www.linkedin.com/company/ieee-student-branch-rajagiri-school-of-engineering-technology"><span class="hb hb-xs spin hb-twitter"><i class="fab fa-linkedin"></i></span></a>
-            </p>
+    <div class="container">
+        <!-- SB Category -->
+        <div class="category">
+            <h2>SB</h2>
+            <div class="events">
+                <div class="event">
+                    <h3>GAME JAM</h3>
+                    <img src="/images/events/game jam poster.jpg" alt="GAME JAM Event">
+                    <div class="event-description">
+                        <p class="event-date">From October 29th to October 1st, IEEE Student Branch organized an online game development competition on the platform Scratch.</p>
+                        <p>The event challenged participants to create innovative puzzle games. First Place: Muhammed Jaasim and Joseph Chacko.</p>
+                    </div>
+                </div>
+                <div class="event">
+                    <h3>Learn from Scratch</h3>
+                    <img src="/images/events/scratch poster.jpg" alt="Learn from Scratch Event">
+                    <div class="event-description">
+                        <p class="event-date">The "Learn from Scratch" event successfully engaged 36 participants, introducing them to the fundamentals of programming using Scratch.</p>
+                        <p>Participants created games and participated in a quiz. Interactive and educational experience.</p>
+                    </div>
+                </div>
+                <div class="event" style="visibility: hidden;">
+                    <h3>Placeholder</h3>
+                </div>
+            </div>
         </div>
-    </footer>
-</div>
 
+        <!-- IAS Category -->
+        <div class="category">
+            <h2>IAS</h2>
+            <div class="events">
+                <div class="event">
+                    <h3>Maze Runner</h3>
+                    <img src="/images/events/MAZE RUNNER POSTER.jpeg" alt="Maze Runner Event">
+                    <div class="event-description">
+                        <p class="event-date">October 26, 2024</p>
+                        <p>Maze Runner, held at Techkshethra, captivated participants with its challenging maze setup. 13 teams of three navigated a maze filled with tasks and hidden clues.</p>
+                    </div>
+                </div>
+                <div class="event">
+                    <h3>Distinguished Lecture Program (DLP)</h3>
+                    <img src="/images/events/IMG-20240807-WA0014.jpg" alt="DLP Event">
+                    <div class="event-description">
+                        <p>Dr. Rajesh Kumar's lecture on "From Nature to Engineering Optimization" explored nature-inspired optimization algorithms and their applications in solving complex engineering problems.</p>
+                    </div>
+                </div>
+                <div class="event" style="visibility: hidden;">
+                    <h3>Placeholder</h3>
+                </div>
+            </div>
+        </div>
 
-<!-- Bootstrap core JavaScript -->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="js/jquery.appear.js"></script>
-<script src="js/script.js"></script>
+        <!-- RAS Category -->
+        <div class="category">
+            <h2>RAS</h2>
+            <div class="events">
+                <div class="event">
+                    <h3>Roborazz</h3>
+                    <div class="event-description">
+                        <p>The IEEE RoboRazz event was a multi-phase robotics competition centered around the development of trash-collecting bots. The event comprised workshops, a documentation phase, and a final prototype demonstration.</p>
+                    </div>
+                </div>
+                <div class="event" style="visibility: hidden;">
+                    <h3>Placeholder</h3>
+                </div>
+                <div class="event" style="visibility: hidden;">
+                    <h3>Placeholder</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- SPS Category -->
+        <div class="category">
+            <h2>SPS</h2>
+            <div class="events">
+                <div class="event">
+                    <h3>Triathlon of Minds</h3>
+                    <img src="/images/events/Copy of WhatsApp Image 2024-11-03 at 20.46.09.jpeg" alt="Triathlon of Minds Event">
+                    <div class="event-description">
+                        <p>An introductory event held by IEEE SPS RSET exclusively for first years. The event consisted of 3 rounds: Case Study using AI tools, Typing speed contest, and Quiz.</p>
+                    </div>
+                </div>
+                <div class="event">
+                    <h3>Intro to FL Studio</h3>
+                    <img src="/images/events/Screenshot 2024-12-29 at 1.39.11 PM.png" alt="Intro to FL Studio Event">
+                    <div class="event-description">
+                        <p class="event-date">November 13, 2024</p>
+                        <p>Arjun Dinukumar conducted an engaging session on music creation using FL Studio. Participants were introduced to the fundamentals of the software, creative techniques, and industry-relevant tips.</p>
+                    </div>
+                </div>
+                <div class="event" style="visibility: hidden;">
+                    <h3>Placeholder</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- PES Category -->
+        <div class="category">
+            <h2>PES</h2>
+            <div class="events">
+                <div class="event">
+                    <h3>Solar Visit</h3>
+                    <img src="/images/events/IMG-20241005-WA0017.jpg" alt="Solar Visit Event">
+                    <div class="event-description">
+                        <p class="event-date">October 4, 2024</p>
+                        <p>The Solar Visit event began with an informative session at the EEE seminar hall. Fr. Dr. Joel George Pullolil provided insights into Rajagiri's solar energy system. Students visited the Solar PV control room and the rooftop of the KE building.</p>
+                    </div>
+                </div>
+                <div class="event" style="visibility: hidden;">
+                    <h3>Placeholder</h3>
+                </div>
+                <div class="event" style="visibility: hidden;">
+                    <h3>Placeholder</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- WIE Category -->
+        <div class="category">
+            <h2>WIE</h2>
+            <div class="events">
+                <div class="event">
+                    <h3>ASCENDIA</h3>
+                    <img src="/images/events/Asc 2.jpg" alt="ASCENDIA Event">
+                    <div class="event-description">
+                        <p class="event-date">October 18-19, 2024</p>
+                        <p>The IEEE Women in Engineering (WIE) Kerala Section held the "ASCENDIA" - The girls upskilling camp. The event had 38 participants and featured workshops on various professional skills.</p>
+                    </div>
+                </div>
+                <div class="event">
+                    <h3>Redefining Success</h3>
+                    <img src="/images/events/RedSuc-p5.jpg" alt="Redefining Success Event">
+                    <div class="event-description">
+                        <p>RSET IEEE Women in Engineering (WiE) conducted an alumni talk session to inspire students on becoming successful. Ms. Nivetha KM, alumni of RSET and IIM Rohtak, focused on 'Women Entrepreneurship in Engineering'.</p>
+                    </div>
+                </div>
+                <div class="event" style="visibility: hidden;">
+                    <h3>Placeholder</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- CS Category -->
+        <div class="category">
+            <h2>CS</h2>
+            <div class="events">
+                <div class="event">
+                    <h3>AMONG US</h3>
+                    <img src="/images/events/DSC09561.JPG" alt="AMONG US Event">
+                    <div class="event-description">
+                        <p class="event-date">October 26,2024</p>
+                        <p>AMONG US challenged teams in a tech-themed treasure hunt with strategic puzzles and imposter-led misdirections. The event consisted of multiple rounds including QR Code Hunt, Photo Scavenger Hunt, Quick Code Cracker, and Technical Trivia Relay.</p>
+                    </div>
+                </div>
+                <div class="event">
+                    <h3>Minute to Win It</h3>
+                    <img src="/images/events//WhatsApp Image 2024-11-03 at 3.04.14 PM (2).jpeg" alt="Minute to Win It Event">
+                    <div class="event-description">
+                        <p class="event-date">October 3, 2024</p>
+                        <p>The Minute to Win It non-tech event featured engaging rounds like Tilt a Cup, This Blows, Cup Stack, and Ring Throw. With 57 participants, the event encouraged teamwork and quick decision-making.</p>
+                    </div>
+                </div>
+                <div class="event" style="visibility: hidden;">
+                    <h3>Placeholder</h3>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
+
