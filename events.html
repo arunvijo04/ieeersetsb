@@ -34,7 +34,7 @@
         .container {
             width: 90%;
             margin: auto;
-            padding-top: 20px;
+
             text-align: center;
         }
         .category {
@@ -116,83 +116,76 @@
 </head>
 <body>
 	<div class="wrapper-main">
-		<!-- Top Bar -->
-		<div class="top-bar">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-6">
-						<div class="social-media">
-							<ul>
-								<li><a href="https://www.facebook.com/rsetieeesb"><i class="fab fa-facebook-f"></i></a></li>
-								<li><a href="https://www.linkedin.com/company/ieee-student-branch-rajagiri-school-of-engineering-technology"><i class="fab fa-linkedin-in"></i></a></li>
-								<li><a href="https://www.instagram.com/ieeersetsb/"><i class="fab fa-instagram"></i></a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="contact-details">
-							<ul>
-								<li><i class="fas fa-phone fa-rotate-90"></i></li>
-								<li><a href="https://goo.gl/maps/ESRNoxGuv74Pu9Ck7" style="color: rgb(255, 255, 255);"><i class="fas fa-map-marker-alt"></i></li></a>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	<!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-light top-nav">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-				<img src="images/logo.png" alt="logo" />
-            </a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="fas fa-bars"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
-						<a class="nav-link" href="index.html">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link " href="about.html">Execom</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link active" href="events.html">Events</a>
-					</li>
-				</ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+                <!-- Logo and Name on the Left -->
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <span class="font-weight-bold text-black">IEEE RSET SB</span>
+                </a>
+        
+                <!-- Mobile Toggle Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fas fa-bars"></span>
+                </button>
+        
+                <!-- Navigation Links on the Right -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbarResponsive">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="execom.html">Execom</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="events.html">Events</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
 	
 	<!-- full Title -->
-	<div class="full-title">
+	<div class="full-title" style="background: url('images/banner.png') no-repeat center center; background-size: cover; padding: 100px 0; text-align: center; color: white;">
 		<div class="container">
 			<!-- Page Heading/Breadcrumbs -->
-			<h1 class="mt-4 mb-3"> Events</h1>
-			<div class="breadcrumb-main">
+			<h1 class="mt-4 mb-3">Execom</h1>
+			<div class="breadcrumb-main" style="position: absolute; bottom: -15px; left: 50%; transform: translateX(-50%); width: 100%;">
 				<ol class="breadcrumb">
 					<li class="breadcrumb-item">
-						<a href="index.html">Home</a>
+						<a href="index.html" style="color: white;">Home</a>
 					</li>
-					<li class="breadcrumb-item active"> Events </li>
+					<li class="breadcrumb-item active">Execom</li>
 				</ol>
 			</div>
 		</div>
 	</div>
+
+    
+    
     <div class="container">
         <!-- SB Category -->
         <div class="category">
             <h2>SB</h2>
             <div class="events">
                 <div class="event">
-                    <h3>GAME JAM</h3>
-                    <img src="./images/game jam poster.jpg" alt="GAME JAM Event">
+                    <h3>Game Jam</h3>
+                    <img src="https://lh3.googleusercontent.com/d/151wj93XuEULJ-S_RUbAFvxQd46rHKp7i=w1000" 
+                         alt="Game Jam Event" 
+                         style="height: 280px;;"> <!-- Adjust height as needed -->
+                    
                     <div class="event-description">
-                        <p class="event-date">From October 29th to October 1st, IEEE Student Branch organized an online game development competition on the platform Scratch.</p>
-                        <p>The event challenged participants to create innovative puzzle games. First Place: Muhammed Jaasim and Joseph Chacko.</p>
+                        <p class="event-date">
+                            Get ready for GAME JAM, a 24-hour offline game development hackathon hosted by IEEE CS RSET x IEEE SB RSET in collaboration with IEEE CS Kerala Chapter, and proudly sponsored by Look4Services!
+                        </p>
                     </div>
+                
+                    <!-- Register Button -->
+                    <a href="http://forms.gle/VCfpzsPgfsXzyUHs7" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; font-weight: bold; border-radius: 5px; margin-top: 10px;">
+                        Register Now
+                    </a>
                 </div>
+                
                 <div class="event">
                     <h3>Learn from Scratch</h3>
                     <img src="./images/scratch poster.jpg" alt="Learn from Scratch Event">
@@ -201,8 +194,35 @@
                         <p>Participants created games and participated in a quiz. Interactive and educational experience.</p>
                     </div>
                 </div>
-                <div class="event" style="visibility: hidden;">
-                    <h3>Placeholder</h3>
+                <div class="event">
+                    <h3>MD Session</h3>
+                    <img src="https://lh3.googleusercontent.com/d/1MINe25REXWb1pBLPNGz8pHDl-6imRo4F=w1000" alt="Learn from Scratch Event">
+                    <div class="event-description">
+                        <p class="event-date">Mr. Manu C Madhu, student representative, IEEE Kochi Hub, LINK,  walked the attendees through the benefits of having an IEEE membership and how to utilise its opportunities, along with its propelling research culture, exclusive networks and curated events.</p>
+                    </div>
+                    
+                </div>
+                <div class="event">
+                    <h3>DebAIte</h3>
+                    <img src="https://lh3.googleusercontent.com/d/1iFFW-c1w_dxL1OgwJ8inU0mwbhtCa8lV=w1000" alt="Learn from Scratch Event">
+                    <div class="event-description">
+                        <p class="event-date">The DebAIte event, held on 11th November 2024 from 4:30 PM to 5:30 PM, focused on engaging discussions about Generative AI (GenAI) through three rounds of debate. Each round addressed a different aspect of GenAI, with teams randomly assigned on the spot and given 5 minutes of prep time.</p>
+                    </div>
+                </div>
+                <div class="event">
+                    <h3>Tink-her-Hack 2.0</h3>
+                    <img src="https://lh3.googleusercontent.com/d/13Qx5EZgDCXJu4LRAjT_7Zu6e1nEHimPs=w1000" alt="Learn from Scratch Event">
+                    <div class="event-description">
+                        <p class="event-date">The DebAIte event, held on 11th November 2024 from 4:30 PM to 5:30 PM, focused on engaging discussions about Generative AI (GenAI) through three rounds of debate. Each round addressed a different aspect of GenAI, with teams randomly assigned on the spot and given 5 minutes of prep time.</p>
+                    </div>
+                </div>
+                <div class="event">
+                    <h3>GAME JAM</h3>
+                    <img src="./images/game jam poster.jpg" alt="GAME JAM Event">
+                    <div class="event-description">
+                        <p class="event-date">From October 29th to October 1st, IEEE Student Branch organized an online game development competition on the platform Scratch.</p>
+                        <p>The event challenged participants to create innovative puzzle games. First Place: Muhammed Jaasim and Joseph Chacko.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -221,13 +241,31 @@
                 </div>
                 <div class="event">
                     <h3>Distinguished Lecture Program (DLP)</h3>
-                    <img src="./images/IMG-20240807-WA0014.jpg" alt="DLP Event">
+                    <img src="https://lh3.googleusercontent.com/d/1Ulw6Z4YvH611T-7Ug3BsTZ6YgJo7Oq2J=w1000" alt="DLP Event">
                     <div class="event-description">
                         <p>Dr. Rajesh Kumar's lecture on "From Nature to Engineering Optimization" explored nature-inspired optimization algorithms and their applications in solving complex engineering problems.</p>
                     </div>
                 </div>
-                <div class="event" style="visibility: hidden;">
-                    <h3>Placeholder</h3>
+                <div class="event">
+                    <h3>Geoquest</h3>
+                    <img src="https://lh3.googleusercontent.com/d/12i6UlBF0o_673lK1v8bKc-aa-21wiEaB=w1000" alt="DLP Event">
+                    <div class="event-description">
+                        <p>The GEOQUEST event, sponsored by Trip Amigo, was a success. 34 geography enthusiasts participated in the online quiz, testing their knowledge and competing for exciting prizes</p>
+                    </div>
+                </div>
+                <div class="event">
+                    <h3>SHEWISDOM</h3>
+                    <img src="https://lh3.googleusercontent.com/d/1CZfk0xfL-iS_zJsp4wdQjsa_bfAw8XBE=w1000" alt="DLP Event">
+                    <div class="event-description">
+                        <p>SHEWISDOM was a Race to the Future – Line Follower HACK-A-THON by IEEE IA/IE/PELS Jt. Chapter Kerala  in collaboration with IEEE SB RSET took place on 20th April 2024. This event challenged skills, collaborated with fellow tech enthusiasts, and pushed the boundaries of technology.</p>
+                    </div>
+                </div>
+                <div class="event">
+                    <h3>Webinar EV</h3>
+                    <img src="https://lh3.googleusercontent.com/d/1NcT0FZx5tLXRrTbpzQDJAJ5L8dsmNgwd=w1000" alt="DLP Event">
+                    <div class="event-description">
+                        <p>The “Future Charging Trends in EV On-Board Charger Power Converters” webinar took place on June 19, 2024, from 7:01 pm to 8:00 pm.</p>
+                    </div>
                 </div>
             </div>
         </div>

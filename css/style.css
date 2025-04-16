@@ -108,6 +108,18 @@ button.btn-secondary:hover{
 .top-nav{
 	background-color: #ffffff !important;
 }
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
 .navbar-expand-lg.top-nav .navbar-nav .nav-link{
 	padding: 10px 15px;
 	color: #323232;
@@ -295,7 +307,7 @@ button.btn-secondary:hover{
 	height: 100%;
 }
 .carousel-item {
-  height: 88vh;
+  height: 100vh;
   min-height: 20px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -1143,6 +1155,7 @@ footer p {
 .team-members-box .card{
 	box-shadow: 3px 5px 15px rgba(0,0,0, .15);
 	border: none;	
+	height: auto;
 }
 .team-members-box h2{
 	font-weight: 600;
